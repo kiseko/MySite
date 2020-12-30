@@ -42,3 +42,23 @@ header {
   color: #fafafa;
   text-decoration: none;
 }
+
+#mv {
+  height: 650px;
+  width: 100%;
+  text-align: center;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  color: #fafafa;
+}
+
+.mv-title {
+  padding-top: 200px;
+  font-size: 64px;
+}
+
+.mv-text {
+  padding-top: 10px;
+  font-size: 20px;
+}
