@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #ec715f;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 70px;
+  float: left;
+}
+
+.nav {
+  float: right;
+}
+
+.nav-list {
+  float: left;
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
+  line-height: 70px;
+}
+
+.nav-list a {
+  color: #fafafa;
+  text-decoration: none;
+}
