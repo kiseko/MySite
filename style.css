@@ -62,3 +62,164 @@ header {
   padding-top: 10px;
   font-size: 20px;
 }
+
+#portfolio,
+#profile {
+  background-color: #eceff1;
+}
+
+.heading {
+  padding-top: 90px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.heading-text {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.production-group {
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.production {
+  margin: 10px 10px 0 0;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.production:nth-child(3n) {
+  margin-right: 0;
+}
+
+.production:nth-child(-n + 3) {
+  margin-top: 0;
+}
+
+.bg-1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.bg-2 {
+  background-image: url(img/websuku.png);
+}
+
+.bg-3 {
+  background-image: url(img/write.jpg);
+}
+
+.bg-4 {
+  background-image: url(img/webcamp.png);
+}
+
+.bg-5 {
+  background-image: url(img/talk.jpg);
+}
+
+.bg-6 {
+  background-image: url(img/webcamp-mother.png);
+}
+
+.strength-group {
+  margin: 0 auto;
+  padding: 30px 0 90px 0;
+  width: 980px;
+  display: flex;
+}
+
+.strength {
+  margin-right: 10px;
+  width: 320px;
+}
+
+.strength:last-child {
+  margin-right: 0;
+}
+
+.fas {
+  width: 320px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.strength-title {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.strength-text {
+  text-align: left;
+  font-size: 16px;
+}
+
+.profile-group {
+  padding: 30px 0 90px 0;
+  display: flex;
+}
+
+.profile-image,
+.profile-description {
+  width: 50%;
+}
+
+.image {
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url(img/my-icon.jpg);
+}
+
+.description-title {
+  padding: 20px 0 5px 0;
+  font-size: 20px;
+}
+
+.description-title:first-child {
+  padding-top: 0;
+}
+
+.description-text {
+  font-size: 16px;
+}
+
+.contact-group {
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+}
+
+.contact-information,
+.contact-sns {
+  width: 50%;
+}
+
+.information,
+.sns-icon {
+  margin: 0 auto;
+  width: max-content;
+}
+
+.fab {
+  font-size: 50px;
+  padding-right: 20px;
+}
